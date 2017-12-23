@@ -1,0 +1,14 @@
+{
+  "verbose": true,
+  "watch": [
+    "assets",
+    "static",
+    "scss"
+  ],
+  "ignore": [
+    "node_modules/**",
+    "build"
+  ],
+  "ext": "*",
+  "exec": "rimraf build && tsc && node ./server.js"
+}

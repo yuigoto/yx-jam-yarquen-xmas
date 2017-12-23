@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outFile": "./build/assets/js/game.js",
+    "sourceMap": true,
+    "removeComments": true,
+    "baseUrl": "src/",
+    "lib": [
+      "es5",
+      "dom",
+      "es2015.core"
+    ]
+  },
+  "files": [
+    "node_modules/phaser-ce/typescript/phaser.d.ts",
+    "node_modules/phaser-ce/typescript/pixi.d.ts"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/*.ts"
+  ]
+}

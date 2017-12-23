@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,400,700');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  color: #fff;
+  background: #666;
+  width: 100%;
+  height: 100%;
+  font-family: 'Barlow', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+html {
+  font-size: 14px;
+}
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  margin: 2rem auto 4rem;
+}
+
+#yx-name {
+  font-size: 2rem;
+  font-weight: 100;
+  margin: 0 0 1rem;
+}
+
+#yx-desc {
+  font-size: 1rem;
+  margin: 0 0 .5rem;
+}
+
+#yx-copy {
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+#yx-game {
+  width: 360px;
+  height: 640px;
+  margin: auto auto 1rem;
+  padding: 0;
+  display: block;
+  //cursor: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+}
