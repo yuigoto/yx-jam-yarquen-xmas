@@ -48,31 +48,6 @@ namespace Xmas {
     ],
     // Static Images
     image: [
-      // Test images
-      {
-        name: "i_large",
-        file: "assets/image/largeimage.jpg"
-      },
-      {
-        name: "i_small1",
-        file: "assets/image/small1.jpg"
-      },
-      {
-        name: "i_small2",
-        file: "assets/image/small2.jpg"
-      },
-      {
-        name: "i_small3",
-        file: "assets/image/small3.jpg"
-      },
-      {
-        name: "i_small4",
-        file: "assets/image/small4.jpg"
-      },
-      {
-        name: "i_small5",
-        file: "assets/image/small5.jpg"
-      },
       // Ground/scenery
       {
         name: "i_ground",
